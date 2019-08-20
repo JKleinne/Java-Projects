@@ -1,0 +1,7 @@
+steps: 
+  - name: 'gcr.io/cloud-builders/git'
+    entrypoint: '/bin/sh'
+    args:
+      - -c
+      - |
+        ls -lha -R /workspace
